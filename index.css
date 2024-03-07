@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Pacifico&family=Protest+Riot&display=swap');
+html{
+    overflow-x: hidden;
+}
+body{
+    margin:0px;
+    padding:0px;
+}
+.free{
+    background-color: rgb(89, 22, 33);
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:18px;
+    padding:10px;
+}
+.bar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bar3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bar .bar3 #bar31{
+    padding:20px;
+}
+.bar .bar1{
+    font-size: 18px;
+}
+.bar .bar1 i{
+    margin:20px;
+}
+.bar .bar2{
+    color:rgb(89, 22, 33);
+    font-size: 18px;
+}
+*{
+    scroll-behavior: smooth;
+}
+.nav{
+    position: sticky;
+    top:0px;
+    background-color: white;
+}
+.nav .topnav{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav .bottomnav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav .bottomnav ul li{
+    list-style-type: none;
+}
+.nav .topnav .starnav input{
+    border:1px solid grey;
+    width:300px;
+    height:40px;
+    border-radius: 40px;
+}
+.nav .topnav .starnav input::placeholder{
+    font-size: 16px;
+    padding-left: 50px;
+}
+.nav .topnav .midnav{
+        font-family: "Pacifico", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size:34px;
+}
+.nav .bottomnav{
+    width:500px;
+    padding-left:600px;
+    padding-top: 10px;
+}
+.nav .topnav .endnav a{
+    font-size: 20px;
+    padding:10px;
+    text-decoration: none;
+    color:black;
+}
+.nav .bottomnav ul li a{
+    text-decoration: none;
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cross{
+    position: absolute;
+    top:10px;
+    left:1500px;
+    color:white;
+}
+.search{
+    position: absolute;
+    top:140px;
+    left:480px;
+    font-size: 18px;
+    z-index:2;
+}
+.hero{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: antiquewhite;
+    height:70vh;
+}
+.hero .hero1{
+    padding-left: 100px;
+}
+.hero .hero1 .hero11{
+    padding-top: 150px;
+    font-size: 72px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hero .hero1 .hero12{
+    font-size: 18px;
+    padding-top: 10px;
+}
+.hero .hero2 img{
+    height:450px;
+}
+.hero .hero1 .hero13 a{
+    text-decoration: none;
+    color: white;
+}
+.hero .hero1 .hero13{
+    margin-top: 20px;
+    padding: 20px 40px 20px 40px;
+    background-color: rgb(89, 22, 33);
+    width:100px;
+    border-radius: 40px;
+    font-size: 18px;
+
+}
+.hero .hero1 .hero13:hover{
+    background-color: black;
+}
+.categories .categories2 .categories21 .categories211 img:hover{
+    scale:0.9;
+    transition: scale 2s;
+}
+.categories .categories2 .categories22 .categories221 img:hover{
+    scale:0.9;
+    transition: scale 2s;
+}
+.categories .categories2 .categories23 .categories231 img:hover{
+    scale:0.9;
+    transition: scale 2s;
+}
+.categories .categories2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin:10px;
+}
+.categories .categories2 div{
+    width:400px;
+}
+.categories{
+    height:100vh;
+}
+.categories .categories1{
+    padding-top: 100px;
+    font-size: 36px;
+    padding-bottom: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.categories .categories1::after{
+    content:"--------------------------------------------------------------------------------------------";
+    color:grey;
+    font-size: 18px;
+}
+.categories .categories2 .categories21{
+    padding-left: 50px;
+}
+.categories .categories1::before{
+    content:"---------------------------------------------------------------------------------------------";
+    color:grey;
+    font-size: 18px;
+}
+.Hot .Hot1{
+    font-size: 36px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:100px;
+}
+.Hot .Hot1::after{
+    content:"-----------------------------------------------------------------------------------------------";
+    color:grey;
+    font-size: 18px;
+}
+.Hot .Hot1::before{
+    content:"-----------------------------------------------------------------------------------------------";
+    color:grey;
+    font-size: 18px;
+}
+.Hot .Hot2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.Hot{
+    background-color:antiquewhite;
+}
+#collection{
+    display: flex;
+    justify-content: space-evenly;
+}
+#collection #collection1{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#collection #collection2 #collection21{
+    padding-top: 200px;
+    font-size: 46px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#collection #collection2 #collection22{
+    padding-top: 50px;
+    color:grey;
+}
+#collection #collection2 #collection23 {
+    padding-top: 50px;
+}
+#collection #collection2 #collection23 a{
+    color:black;
+}
+#recommendation #recommendation2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-bottom: 200px;
+}
+#recommendation #recommendation1{
+    font-size: 36px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 50px;
+}
+#recommendation #recommendation1::after{
+    content:"---------------------------------------------------------------";
+    color:grey;
+    font-size:20px;
+}
+#recommendation #recommendation1::before{
+    content:"---------------------------------------------------------------";
+    color:grey;
+    font-size:20px;
+}
+
+#Customersh1{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(187, 184, 184);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#Customersh1::after{
+    content:"-----------------------------------------------------------------";
+    color:grey;
+    font-size: 18px;
+}
+#Customersh1::before{
+    content:"-----------------------------------------------------------------";
+    color:grey;
+    font-size: 18px;
+}
+#Customers{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: rgb(187, 184, 184);
+
+}
+#Customers #div_1{
+    height:400px;
+    width:270px;
+    background-color: rgb(254, 254, 254,0.2);
+    margin:0px 30px 150px 0px ;
+}
+#Customers #div_2{
+    height:400px;
+    width:270px;
+    background-color: white;
+    margin:0px 30px 150px 0px ;
+}
+#Customers #div_4{
+    height:400px;
+    width:270px;
+    background-color: white;
+    margin:0px 30px 150px 0px ;
+}
+#Customers #div_3{
+    height:400px;
+    width:270px;
+    background-color: white;
+    margin:0px 30px 150px 0px ;
+}
+#Customers #div_5{
+    height:400px;
+    width:270px;
+    background-color: rgba(254, 254, 254,0.2);
+    margin:0px 0px 150px 0px ;
+}
+#Customers #div_1 #div11,#div_2 #div21,#div_3 #div31,#div_4 #div41,#div_5 #div51{
+    padding-top: 50px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 30px;
+}
+#Customers #div_1 #div12,#div_2 #div22,#div_3 #div32,#div_4 #div42,#div_5 #div52{
+    color:grey;
+    padding-bottom: 20px;
+}
+#Customers #div_1 #div13,#div_2 #div23,#div_3 #div33,#div_4 #div43,#div_5 #div53{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#Customers #div_1 #div14 img,#div_2 #div24 img,#div_3 #div34 img,#div_4 #div44 img,#div_5 #div54 img{
+    width:50px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+#Customers #div_1 #div15,#div_2 #div25,#div_3 #div35,#div_4 #div45,#div_5 #div55{
+    font-size: 12px;
+    color: blue;
+}
+.brands .brands1{
+    font-size: 36px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.brands .brands1::after{
+    content:"----------------------------------------------------------------";
+    font-size:16px;
+    color: grey;
+}
+.brands .brands1::before{
+    content:"----------------------------------------------------------------";
+    font-size:16px;
+    color: grey;
+}
+.brands .brands2{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+.brands .brands2 div img{
+    width:220px;
+    padding: 0px 30px 100px 30px;
+}
+.dream{
+    background-image: url(https://demo.minimog.co/cdn/shop/files/14_fb0b6921-8b3c-46b3-8b5f-03202ebe772b.jpg?v=1628328827&width=2000);
+    background-size: cover;
+    height:80vh;
+    margin:0px 100px 100px 100px;
+}
+.dream .dream1{
+    padding-top: 200px;
+    padding-left: 50px;
+    font-size: 40px;
+}
+.dream .dream2{
+    padding-top: 30px;
+    padding-left: 50px;
+}
+.dream .dream3{
+    margin-top: 30px;
+    margin-left: 50px;
+    height:40px;
+    width:150px;
+    background-color: rgb(156, 93, 103);
+    border-radius: 40px;
+    padding-top: 20px;
+}
+.dream .dream3 a{
+    text-decoration: none;
+    color:white;
+}
+.dream .dream3:hover{
+    background-color: black;
+}
+#keep div img:hover{
+    scale:0.9;
+    transition: scale 2s;
+}
+#keep{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+#keep div img{
+    width:300px;
+}
+#touch #touch2 #touch21{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+#touch{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(190, 189, 189);
+}
+#touch #touch2 #touch22{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+#touch #touch1 #touch11{
+    padding-top: 100px;
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 30px;
+}
+#touch #touch1 #touch12{
+    padding-bottom:20px;
+}
+#touch #touch1 #touch13{
+    padding-bottom: 100px;
+}
+#touch #touch1 #touch13 input{
+    height:40px;
+    width:300px;
+}
+#touch #touch1 #touch13 input::placeholder{
+    font-size: 16px;
+    padding-left: 50px;
+}
+#touch #touch2 #touch21 div{
+    margin:100px 50px 30px 50px;
+}
+#touch #touch2 #touch22 div{
+    margin:0px 50px 10px 50px;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(187, 184, 184);
+}
+.footer .footer2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer .footer2 div img{
+    width:30px;
+}
+.footer .footer2 div{
+    margin:20px;
+}
+.envelope{
+    position: absolute;
+    z-index: 3;
+    top:6500px;
+    left:150px;
+}
+.arrow{
+    position: absolute;
+    z-index:3;
+    top:6500px;
+    left:400px;
+}
+

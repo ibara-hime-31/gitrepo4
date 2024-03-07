@@ -1,0 +1,192 @@
+.html{
+    overflow-x: hidden;
+}
+.body{
+    margin: 0px;
+    padding: 0px;
+}
+.demo{
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 20px;
+    padding-left: 200px;
+    padding-bottom: 20px;
+}
+.pay{
+    display: flex;
+    justify-content: space-evenly;
+}
+.pay .pay1 .pay11{
+    display: flex;
+    justify-content: space-evenly;
+}
+.pay .pay1 .pay11 .pay111{
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 10px;
+}
+.pay .pay1 .pay13 .pay131{
+    width:420px;
+    height:40px;
+    margin-bottom: 10px;
+}
+.pay .pay1 .pay14{
+    padding-top: 40px;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 10px;
+}
+.pay .pay1 .pay15 .pay151{
+    width:420px;
+    height:40px;
+    margin-bottom: 10px;
+}
+.pay .pay1 .pay15 .pay152{
+    width:200px;
+    height:40px;
+    margin-bottom: 10px;
+}
+.pay .pay1 .pay15 .pay153{
+    width:200px;
+    height:40px;
+    margin-bottom: 10px;
+}
+.pay .pay1 .pay15 .pay154{
+    width:410px;
+    height:40px;
+    margin-bottom: 10px;
+}
+.pay .pay1 .pay15 .pay155{
+    width:410px;
+    height:40px;
+    margin-bottom: 10px;
+}
+.pay .pay1 .pay15 .pay156{
+    margin-bottom: 40px;
+}
+.pay .pay1 .pay16{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+}
+.pay .pay1 .pay17{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width:420px;
+    background-color: aliceblue;
+    border:2px solid gray;
+}
+.pay .pay1 .pay18{
+    margin-top: 40px;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.pay .pay1 .pay19{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.pay .pay1 .pay20{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width:420px;
+    background-color: aliceblue;
+    border:2px solid gray;
+}
+
+.pay .pay1 .pay21{
+    height:200px;
+    width:420px;
+    background-color: rgb(197, 194, 194);
+}
+.pay .pay1 .pay21 .pay211{
+    margin:10px 10px 10px 10px;
+    height:40px;
+    width:390px;
+}
+.pay .pay1 .pay21 .pay212{
+    margin:0px 10px 10px 10px;
+    height:40px;
+    width:180px;
+}
+.pay .pay1 .pay21 .pay213{
+    margin:0px 10px 10px 10px;
+    height:40px;
+    width:180px;
+}
+.pay .pay1 .pay21 .pay214{
+    margin:0px 10px 10px 10px;
+    height:40px;
+    width:390px;
+}
+.pay .pay1 .pay22{
+    margin-top: 30px;
+    height:40px;
+    width:420px;
+    background-color: rgb(58, 58, 239);
+    border-radius: 10px;
+
+}
+.pay .pay1 .pay22:hover{
+    background-color: blue;
+}
+.pay .pay1 .pay23{
+    margin-top: 100px;
+    width:420px;
+    padding-top: 10px;
+    border-top: 2px solid gray;
+    color:gray;
+    font-size: 10px;
+}
+.pay .pay3{
+    background-color: rgb(208, 203, 203);
+    width:700px;
+    height:90vh;
+}
+.pay .pay31{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+}
+.pay .pay32{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 20px;
+}
+.pay .pay33{
+    padding-left: 100px;
+}
+.pay .pay33 input{
+    margin-top: 20px;
+    margin-left: 20px;
+    width:300px;
+    height:40px;
+}
+.pay .pay33 button{
+    height:40px;
+}
+.pay .pay3 .pay34,.pay35,.pay36{
+    display: flex;
+    justify-content: space-evenly;
+}
+.pay .pay3 .pay31 div img,.pay32 div img{
+    border:2px solid black;
+}
+.pay .pay3 .pay34{
+    padding-top: 20px;
+}
+.pay .pay3 .pay35{
+    padding-top: 10px;
+}
+.pay .pay3 .pay36{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 20px;
+}
+.bag{
+    position: absolute;
+    top:40px;
+    left:1400px;
+    font-size: 18px;
+}
